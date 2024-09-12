@@ -16,10 +16,13 @@
 - git push origin main (main é a branch que estamos mandando o projeto)
 - - -
 #### Estudando criação de métodos
-" Sistema Smart TV "
+- Projeto -> Sistema Smart TV
 - - -
 #### Criando um documentario web
 - Usando esse código no terminal, a gente cria um documentario na web
 
 "javadoc -encoding UTF-8 -docencoding ISO-8859-1 -d ../docs src/*.java"
 - - -
+#### Estudando método Scanner
+- Projeto -> Digite Seus Dados
+- - - 
