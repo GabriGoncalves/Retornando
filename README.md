@@ -47,3 +47,9 @@
 - FOR com ARRAYS
 - WHILE
 - DO WHILE
+- - -
+
+#### Estudando Estruturas Excepcionais
+
+- Try / Catch para tratar exceções de forma simples.
+- 
