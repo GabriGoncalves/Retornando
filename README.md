@@ -50,6 +50,8 @@
 - - -
 
 #### Estudando Estruturas Excepcionais
-
 - Try / Catch para tratar exceções de forma simples.
-- 
+
+#### Estudando Debugging
+- Fazendo debbuging e entendendo como nos ajuda a encontrar um problema.
+- Pilha de Execução.
