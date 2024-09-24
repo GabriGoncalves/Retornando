@@ -3,7 +3,7 @@ package EstruturasExcepcionais;
 public class FormatadorCep {
     public static void main(String[] args) {
         try {
-            String cepFormatado = formatadorCep("0843053");
+            String cepFormatado = formatadorCep("08430530");
 
             System.out.println(cepFormatado);
 
