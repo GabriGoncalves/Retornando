@@ -1,9 +1,15 @@
 package Collection.List.Ordenacao;
 
-public class Pessoa {
+import java.util.Comparator;
+
+public class Pessoa implements Comparable<Pessoa> {
     // Atributos
     private String nome;
     private int idade;
+    @Override
+    public int compareTo(Pessoa p) {
+        return Integer.compare(idade, p.getIdade());
+    }
     private double altura;
     //Construtor
     public Pessoa(String nome, int idade, double altura){
@@ -21,5 +27,16 @@ public class Pessoa {
     public double getAltura(){
         return altura;
     }
-
+    @Override
+    public String toString() {
+        return "Nome = " + nome +
+                ", Idade = " + idade +
+                ", Altura = " + altura + '\n';
+    }
 }
+ class ComparatorPorAltura implements Comparator<Pessoa>{
+     @Override
+     public int compare(Pessoa p1, Pessoa p2) {
+         return Double.compare(p1.getAltura(), p2.getAltura());
+     }
+ }
