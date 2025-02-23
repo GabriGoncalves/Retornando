@@ -26,7 +26,6 @@ public class AgendaContatos {
     public Set<Contato> pesquisarPorNome(String nome){
         Set<Contato> contatosPorNome = new HashSet<>();
 
-        
     return contatosPorNome;
     }
     public void atualizarNumeroContato(String nome, int NovoNumero){
