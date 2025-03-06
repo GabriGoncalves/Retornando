@@ -20,7 +20,7 @@ public class ContagemDePalavras {
         if (!contagemPalavras.isEmpty()) {
             contagemPalavras.remove(palavra);
         }else {
-            System.out.println("A palavra não existe nessa contagem.");
+            System.out.println("Não há palavras na contagem.");
         }
     }
 

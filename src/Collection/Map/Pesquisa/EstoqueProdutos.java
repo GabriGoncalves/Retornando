@@ -22,7 +22,11 @@ public class EstoqueProdutos {
 
     }
     public void exibirProdutos(){
-        System.out.println(estoqueProdutoMap);
+        if (!estoqueProdutoMap.isEmpty()){
+            System.out.println(estoqueProdutoMap);
+        } else {
+            System.out.println("O estoque está vazio.");
+        }
     }
     public double calcularValorTotalEstoque(){
         double valorTotalEstoque = 0;
